@@ -1,4 +1,4 @@
-# Jogo-numero-secreto-com-reconhecimento-de-voz
+# Jogo: Número Secreto com Reconhecimento de Voz
 Projeto desenvolvido durante um curso da plataforma ALURA
 ### Regras:
 1. Para jogar basta falar apenas um número contido no intervalo indicado, o reconhecimento de voz vai ouvir e indicar se o numero é maior ou menor.
