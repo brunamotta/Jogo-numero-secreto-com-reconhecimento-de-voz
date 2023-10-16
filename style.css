@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;600&display=swap');
 
 :root {
     --font-family: 'Roboto', sans-serif;
     --bg-color: #0AA1DD;
     --primary-color: #E8F9FD;
+    --secondary-color: #00579e;
 }
 
 body {
@@ -22,6 +23,10 @@ body {
 
 h1 {
     font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
 }
 
 h3 {
@@ -46,3 +51,25 @@ h3 {
     margin: 20px;
 }
 
+.btn-jogar {
+    border: 1px solid var(--bg-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-family: var(--font-family);
+    font-size: 1.1em;
+    font-weight: 500;
+    opacity: 90%;
+    cursor: pointer;
+    transition-property: background-color, color, border;
+    transition-duration: 0.5s;    
+}
+
+.btn-jogar:hover {
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    transition: all 0.5s ease-out;
+}
