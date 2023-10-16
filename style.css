@@ -73,3 +73,30 @@ h3 {
     color: var(--primary-color);
     transition: all 0.5s ease-out;
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        margin-top: 30vh;
+        justify-content:flex-start 
+    }
+
+    h1 { 
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .mensagem {
+        font-size: 1em;
+    }
+
+    .box {
+        font-size: 2em;
+    }
+}
